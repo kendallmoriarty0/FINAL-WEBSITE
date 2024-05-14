@@ -55,7 +55,6 @@ nav ul li a {
     font-style: italic;
 }
 
-
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -69,7 +68,6 @@ nav ul li a {
 .button:hover {
     background-color: #555;
 }
-
 
 .contact-info {
     display: flex;
@@ -241,3 +239,47 @@ main {
 }
 
 
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fce4ec;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2 {
+    color: #333;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.about-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-container ul li {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.about-container .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.about-container .button:hover {
+    background-color: #555;
+}
